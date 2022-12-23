@@ -6,11 +6,5 @@
 // "This white dog has 4 legs."
 
 function animal(obj){
-  obj = {
-    name: 'dog',
-    legs: 4,
-    color: 'white'
-  }
-  
-  return 'This white dog has 4 legs.'
+  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
 }
