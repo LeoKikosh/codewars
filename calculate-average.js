@@ -1,4 +1,4 @@
-//Write a function which calculates the average of the numbers in a given list.
+// Write a function which calculates the average of the numbers in a given list.
 
 function find_average(array) {
   if (array.length === 0) {
