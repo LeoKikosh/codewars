@@ -1,3 +1,5 @@
+// Write a function that returns the total surface area and volume of a box as an array: [area, volume]
+
 function getSize(width, height, depth){
   var box = { width: width, height:height, depth:depth};
   
